@@ -10,13 +10,13 @@ int main()
 	{
 		printf("Your character is a number: %c", ch);
 	}
-	else if (ch >= 65 && ch <= 90)
+	else if ((ch >= 65 && ch <= 90)|| (ch >= 97 && ch <= 122))
 	{
-		printf("Your character is a capital english letter: %c", ch);
-	}
-	else if (ch >= 97 && ch <= 122)
-	{
-		printf("Your character is a small english letter: %c", ch);
+		printf("Your character is an english letter: %c\n", ch);
+		if (ch >= 65 && ch <= 90)
+			printf("Your character is a capital english letter: %c", ch);
+		else
+			printf("Your character is a small english letter: %c", ch);
 	}
 	else
 		printf("Your char is : %c", ch);
