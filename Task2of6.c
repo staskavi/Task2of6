@@ -10,7 +10,10 @@ int main()
 	{
 		printf("Your character is a number: %c", ch);
 	}
-	
+	else if ((ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122))
+	{
+		printf("Your character is an english letter: %c", ch);
+	}
 
 	return 0;
 }
