@@ -19,7 +19,7 @@ int main()
 			printf("Your character is a small english letter: %c", ch);
 	}
 	else
-		printf("Your char is : %c", ch);
+		printf("Your char is other symbol : %c", ch);
 
 	return 0;
 }
